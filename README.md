@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-   Evaluating the capacity of the Wilson-Cowan firing-rate model to simulate biological sound processing captured by fMRI data
+   Evaluating the capacity of the Wilson-Cowan firing-rate model to simulate biological sound processing captured by fMRI data using machine learning classifiers.
 </p>
 
 ## Table of contents
@@ -32,7 +32,7 @@
 
 ## About the project
 
-The human brain processes sound through specialized ventral and dorsal streams within the auditory cortex. While computational models like the **Wilson-Cowan (WC) firing-rate model** have been developed to simulate these dynamics, their ability to replicate real physiological responses remains to be fully validated.
+The human brain processes sound through specialized ventral and dorsal streams within the **auditory cortex**. While computational models like the **Wilson-Cowan (WC) firing-rate model** have been developed to simulate these dynamics, their ability to replicate real physiological responses remains to be fully validated.
 
 In this project, we developed **AuditWC-fMRI-ML**, a classification framework designed to compare the predictive capacity of the **WC model** against **functional magnetic resonance imaging (fMRI)** data. The goal was to determine if the model accurately simulates the biological processing of spectrotemporal modulations in sound. To achive this, we trained **machine learnning (ML) classifiers** on both datasets to **classify 288 sounds across six categories** (speech, voice, animal, music, nature, and tools) and compared their performance across different brain regions.
 
