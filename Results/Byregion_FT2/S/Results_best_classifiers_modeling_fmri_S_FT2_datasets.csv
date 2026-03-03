@@ -1,7 +1,8 @@
-,RandomForest_modelingdataset_S
+﻿,RandomForest_modelingdataset_S_FT2
 Accuracy,0.5689655172413793
 Balanced accuracy,0.5740740740740741
 Precision,0.5718548692686624
 Recall,0.5689655172413793
 F1score,0.5569797742558499
 MCC,0.48902374626082
+,
