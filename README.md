@@ -46,7 +46,7 @@ Our methodology encompasses four main stages:
 An overview of the workflow of this project is shown in the graphical abstract below.
 
 <p align="center">
-  <img src="images/auditwc-ml-graphabstract.svg" width="800" alt="Graphical Abstract"/>
+  <img src="images/auditwc-ml-graphabstract.png" width="800" alt="Graphical Abstract"/>
   <br>
   <em>Figure 1. Graphical abstract of the AuditWC-ML workflow.</em>
 </p>
@@ -74,7 +74,7 @@ This study uses two distinct datasets containing responses to **288 sounds** acr
 
 ## Machine Learning Models
 
-We tested four multiclass classifiers using **scikit-learn**: **Random Forest (RF)**, **XGBoost**, **Support Vector Machine (SVM)**, and **Multilayer Perceptron (MLP)**. Models were implemented using the **One-vs-All** strategy and evaluated through 3-fold cross-validation. 
+We tested four multiclass classifiers using [scikit-learn][sckit-learn]: **Random Forest (RF)**, **XGBoost**, **Support Vector Machine (SVM)**, and **Multilayer Perceptron (MLP)**. Models were implemented using the **One-vs-All** strategy and evaluated through 3-fold cross-validation. 
 
 The **Random Forest** algorithm was the top performer for both the modeling and fMRI datasets and was selected for in-depth comparative analysis.
 
@@ -156,3 +156,4 @@ If you have comments or suggestions, please [open an issue][issues] in this repo
 [maasuni]: https://www.maastrichtuniversity.nl/
 [issues]: https://github.com/sayalaruano/AuditWC-fMRI-ML/issues/new
 [gridsearch]: https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html
+[sckit-learn]: https://scikit-learn.org/
